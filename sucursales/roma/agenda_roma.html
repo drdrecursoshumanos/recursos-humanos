@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	  
+<!-- bloqueo back reutrn -->		  
+<script>
+// Al cargar, sobrescribe el historial para que 'atrás' vaya al inicio
+history.pushState(null, null, location.href);
+window.onpopstate = function () {
+// Redirige al inicio al pulsar atrás o adelante
+window.location.href = 'agenda_roma.html'; // Cambia 'index.html' por tu inicio
+};
+</script>
+<!-- /bloqueo back reutrn -->	
+
+<!-- favicon -->	
+<link rel="icon" href="../../images/logo-drd3_icono.ico" >
+<!-- /favicon -->	
+	  
+
+<!-- refresh -->		
+<meta  http-equiv="refresh"  content="3600; URL=../../index.html"/> 
+<!-- /refresh -->		
+	
+
+<!-- title -->		
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AGENDA</title>
+<!-- /title -->	  
+	  
+
+<!-- estilos css -->
+<link rel="stylesheet" href="../../css/atributosbarraizquierda/estilosbarraizquierda.css">
+<link rel="stylesheet" href="../../css/atributosbarraizquierda/fontsbarraizquierda.css"> 
+<link href="../../css/bootstrap-4.4.1.css" rel="stylesheet">
+<!-- / estilos css -->
+
+	  
+</head>
+	
+<body style="background-color:#FFFFFF;">
+	  
+<!--Redes Sociales Inicio--> 
+<div class="social">
+<ul>
+			<!--icon 01-->
+			<li><a href="agenda_roma.html" class="icon-phone"></a></li>
+	
+			<!--icon 02-->
+			<li><a href="calendario_roma.html" class="icon-calendar"></a></li>
+			
+	        <!--icon 03-->
+			<li><a href="https://id.ionos.mx/identifier?_gl=1*7z6lph*_gcl_au*MjA2ODIzMDQyLjE3MjE5MzU0MjY.*_ga*MTU2OTk5NTI5OC4xNjgxNzU3NjAy*_ga_29DKNVLRWX*MTcyMTk1MjAwMy4yMi4wLjE3MjE5NTIwMjQuMzkuMC4w" target="_blank" class="icon-envelop"></a></li>
+			
+	        <!--icon 04-->
+			<li><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&dsh=S859202790%3A1771974677877212&ifkv=ASfE1-oQN4FxX3B0o6qQxu64Dm2jWS2FL782V8ZYFC81eJIg3VzJH-EISGa7UHIO0cEXzwXAZyUrag&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank" class="icon-google"></a></li>
+			
+</ul>
+</div>
+<!--/Redes Sociales Inicio--> 
+	  
+	  
+<!--menu--> 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+<div class="container">
+<a class="navbar-brand" href="index_roma.html">INICIO</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+		  
+		  
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+		  
+<!-- desplegable 01 -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COLABORADOR</a>
+
+	    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="plantilla_roma.html">PLANTILLA LABORAL</a>
+	    </div>
+</li>
+			  
+
+<!-- desplegable 02 -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NÓMINA</a>
+
+	    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		<a class="dropdown-item" href="https://drive.google.com/drive/folders/16Fvci8f0qcc-4JI7Tn6TmokbISObWydZ?usp=drive_link" target="_blank">SUBIR DOCUMENTOS</a>	
+        <a class="dropdown-item" href="incidencias_roma.html">INCIDENCIAS</a>
+		<a class="dropdown-item" href="https://3.basecamp.com/4298998/projects/39380903" target="_blank" >NÓMINA A PAGAR</a>	
+        </div>
+</li>  
+<!-- desplegable 03 -->			  
+
+
+	
+<!-- desplegable -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FORMATOS DE DESCARGA</a>
+
+	    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpsWdeX1Q5wy7SSir7bohyb-c9FCYrbFGtS8mAtG4BKwM4muQWFgH30OJuNpTv0UU6H_G2__-rNjJ2/pub?output=pdf" target="_blank">EVALUACIÓN DE NUEVO INGRESO</a>
+	    </div>
+</li>	
+<!--/desplegable -->	
+
+											<!-- (borrar este inicio !--)
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FORMATOS DE CAPTURA</a>
+
+	              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#" >SOLICITUD DE EMPLEO DRD</a>
+				  <a class="dropdown-item" href="#" >TEST PSICOMETRICO</a>
+				  <a class="dropdown-item" href="#" >TEST CONOCIMIENTOS BASICOS</a>
+				 
+				 
+				  
+				  <div class="dropdown-divider"></div>
+            
+                  <a class="dropdown-item" href="#" >SOLICITUD DE PRESTAMO</a>
+				  <a class="dropdown-item" href="#" >SOLICITUD DE BONO</a>
+				  <a class="dropdown-item" href="#" >SOLICITUD DE PAGO DE VACACIONES</a> 
+				  <a class="dropdown-item" href="#" >SOLICITUD DE ALTA IMSS</a>
+				  
+				 
+				   <div class="dropdown-divider"></div>
+				   <a class="dropdown-item" href="#" >CARTA CONDUCTA</a>
+				   <a class="dropdown-item" href="#" >CARTA DISCIPLINA</a>
+				  
+				  
+				  
+				   <div class="dropdown-divider"></div>
+				   <a class="dropdown-item" href="#" >CARTA RENUNCIA</a>
+				   <a class="dropdown-item" href="#" >FINIQUITO</a>
+				  
+                   </div>
+</li>
+			  
+	
+<!-- desplegable 04 -->			  
+<li class="nav-item">
+<a class="nav-link disabled" href="#">SUCURSAL ROMA</a>
+</li>
+</ul>
+	
+<!-- desplegable 05 -->
+<form class="form-inline my-2 my-lg-0" >
+<a href="../../index.html" class="btn btn-outline-success my-2 my-sm-0" >CERRAR SESIÓN</a>
+</form>
+	
+	
+</div>
+</div>
+</nav>
+<!--/menu--> 
+	  
+<!--cuadro de carrusel--> 
+<div class="container mt-3">
+<div class="media-body">
+
+<!--logo--> 
+<h5 class="mt-0 mb-1"><h1 class="title" style="color: #A00002; text-align: left;"><a href="https://www.drd3d.com/" target="_blank"><img src="../../images/logo-drd3drh.png" width="173" height="55" alt=""/></a></h1></h5>
+<p class="mb-0"></p>
+<!--/logo--> 
+	  
+	
+	
+<!--carrusel--> 
+<div class="row">
+<div class="col-12">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+</ol>
+
+	
+	
+<!--imagenes que contienen al carrusel--> 
+<div class="carousel-inner">
+				
+<!--img 01--> 
+<div class="carousel-item active">
+<img class="d-block w-100" src="../../images/carrusel_1.jpg" alt="First slide">
+<div class="carousel-caption d-none d-md-block">
+<h5></h5>
+<p></p>
+</div>
+</div>
+	
+<!--img 02--> 
+<div class="carousel-item">
+<img class="d-block w-100" src="../../images/carrusel_2.jpg" alt="Second slide">
+<div class="carousel-caption d-none d-md-block">
+<a href="" class="btn btn-primary" role="button">¡INHABILITADO!</a>
+<h5></h5>
+<p></p>
+</div>
+</div>
+				
+<!--img 03--> 
+<div class="carousel-item">
+<img class="d-block w-100" src="../../images/carrusel_3.jpg" alt="Third slide">
+<div class="carousel-caption d-none d-md-block">
+<h5> </h5>
+<p> </p>
+<a href="" class="btn btn-primary" role="button">¡INHABILITADO!</a>
+</div>
+</div>
+</div>
+<!--/imagenes que contienen al carrusel--> 
+			  
+			  
+<!--boton regreso-->  
+<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+			  
+<!--boton avanzar--> 
+<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<!--/carrusel--> 
+
+	
+	
+	
+<!--bloque de agenda 1--> 	
+<footer class="text-center" style="background-color:#00955d;">		
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">DIRECCIÓN GENERAL</font></big></big></b></b></p>
+</div>		
+</div>			
+</footer>	
+	
+
+<div class="container">
+<div class="row">
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>DIRECTOR GENERAL&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Dr. Antonio Alejandro Gual Sill&nbsp;</font></medium></small></h5>
+
+	</div>
+	</div>
+	</div>		
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>CORPORATIVO&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Lic. Lucero Suri Torres&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;compras@drd3d.com&nbsp; </font></small></small></h5>
+	<p class="text-center"><font color="#003063">(55) 70-90-81-39&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 70-90-73-61&nbsp;</font></p>
+	</div>
+	</div>
+	</div>		
+	
+
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>CORPORATIVO&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Lic. Alejandra Camargo Posada&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;acamargo@drd3d.com&nbsp; </font></small></small></h5>
+	<p class="text-center"><font color="#003063">(55) 70-90-81-39&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 70-90-73-61&nbsp;</font></p>
+	</div>
+	</div>
+	</div>		
+
+	
+	
+	
+</div>
+</div>
+<!--/bloque de agenda 1--> 	
+	
+	
+<!--bloque de agenda 2--> 		
+<footer class="text-center" style="background-color:#00955d;">		
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">DIRECCIÓN MÉDICA</font></big></big></b></b></p>
+</div>		
+</div>			
+</footer>	
+	
+
+<div class="container">
+<div class="row">		
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>DIRECTORA MÉDICA&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Dra. Marcia Jessica Borja Ruiz&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;jborja@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Del Valle&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(56) 27-63-25-04&nbsp;</font></p>
+	</div>
+	</div>
+	</div>	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>ASIST. DIRECCIÓN MÉDICA&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Lic. Jonathan Hernández Jiménez&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;jhernandez@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Del Valle&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(55) 84-20-00-28&nbsp;</font></p>
+	</div>
+	</div>
+	</div>		
+</div>
+</div>
+	
+<!--/bloque de agenda 2--> 		
+	
+<!--bloque de agenda 3--> 	
+<footer class="text-center" style="background-color:#00955d;">		
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">DIRECCIÓN DE RELACIONES PÚBLICAS</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>	
+
+<div class="container">
+<div class="row">	
+
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>DIRECTORA DE RELACIONES PÚBLICAS&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Dra. Rosa María Alvarado Rozano&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;ralvarado@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Iztacalco&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(55) 56-64-65-69&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>ASIST. DIRECCIÓN DE RELACIONES PÚBLICAS&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Asist. María Fernanda Montaño López&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;fmontano@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Iztacalco&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(55) 56-64-65-69&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 42-50-86-57&nbsp;</font></p>
+	</div>
+	</div>
+	</div>		
+</div>
+</div>
+<!--/bloque de agenda 3--> 		
+	
+<!--bloque de agenda 2--> 		
+<footer class="text-center" style="background-color:#00955d;">		
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">CONTRALORÍA</font></big></big></b></b></p>
+</div>		
+</div>			
+</footer>	
+	
+
+<div class="container">
+<div class="row">		
+	
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>CONTRALOR&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">C. Oscar Esteban Aragon&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;oscar@gmpcp.net&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Corporativo&nbsp; </font></small></small></h5>		
+	<p class="text-center"><font color="#003063">(56) 21-75-79-26&nbsp;</font></p>
+	</div>
+	</div>
+	</div>	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>AUX. CONTRALOR&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Celeste Abigail Hernández&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Corporativo&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(55) 21-33-89-96&nbsp;</font></p>
+	</div>
+	</div>
+	</div>		
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>AUX. CONTRALOR&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Veronica Cortez Soriano&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Corporativo&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+	
+</div>
+</div>
+	
+<!--/bloque de agenda 2--> 
+	
+<!--/bloque de agenda 4--> 		
+<footer class="text-center" style="background-color:#00955d;">	
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">RECURSOS HUMANOS</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>
+
+<div class="container">
+<div class="row">	
+
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>COORDINADOR&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Lic. Carlos Govany Mateos Flores&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;gmateos@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Del valle&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(55) 66-32-85-76&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+
+	
+</div>
+</div>	
+<!--/bloque de agenda 4--> 		
+	
+	
+<!--bloque de agenda 5--> 		
+<footer class="text-center" style="background-color:#00955d;">
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">GERENCIA</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>	
+	
+<div class="container">
+<div class="row">		
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>COAPA&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Tec. Verónica Ruíz Mendez&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;vruiz@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 32-47-49-64&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Avenida Prolongación División del Norte #4344 Local 30, Colonia Nueva Oriental Coapa, C.P. 14300, Alcaldía Tlalpan.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 56-78-48-60&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 56-77-53-36&nbsp;</font></p>
+
+	</div>
+	</div>
+	</div>
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>DEL VALLE&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">C.D. Edith Abad Huicochea&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;eabad@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 16-57-11-19&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Uxmal 805 – 5 Frente a la Alc. Benito Juárez, Ciudad de México, METRO PARQUE DE LOS VENADOS&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 56-05-86-52&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 56-05-65-31&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>DEL VALLE EXPRESS&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Tec. Veronica Domínguez Morales&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;vdominguez@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 45-12-62-41&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Uxmal 805 – PB Frente a la Alc. Benito Juárez, Ciudad de México, METRO PARQUE DE LOS VENADOS&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 56-05-86-52&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 56-05-65-31&nbsp;</font></p>
+
+	</div>
+	</div>
+	</div>
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>ECATEPEC&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">C.D. Michel Castillo Mazari&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;mcastillo@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 32-49-68-10&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Av. Central 50, Center Plazas Mz. 44, Local 7 P.B. Ecatepec, Estado de México. METRO ECATEPEC&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 57-74-92-80&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 57-74-92-83&nbsp;</font></p>
+
+	</div>
+	</div>
+	</div>
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>INTERLOMAS&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Tec. Mariel Alavéz Perez&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;malavez@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 86-00-83-11&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Boulevard Interlomas 5, Planta Baja, L-10 Huixquilucan, Estado de México. CENTRO COMERCIAL INTERLOMAS&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 52-90-10-84&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 52-90-02-26&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>IZTACALCO&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">C.D. Mónica Itzel Amador López&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;iamador@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 69-11-18-65&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Av. Río Churubusco No. 775, Plaza Río, Local 1A Iztacalco, Ciudad de México. METRO IZTACALCO.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 56-48-22-56&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 56-48-84-93&nbsp;</font></p>
+
+	</div>
+	</div>
+	</div>
+
+	
+
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>LINDAVISTA&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">C.D. Talia Vázquez Morales&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;tvazquez@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(56) 10-01-75-55&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Calzada de Vallejo 1111, Local 23, Col. Nueva Industrial Vallejo, METROBUS PATERA&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 55-67-77-24&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 55-67-77-33&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>	
+	
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>NEZAHUALCÓYOTL&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Tec. Alma Lidia Cruz Rubiños&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;acruz@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 48-76-07-49&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Av. Adolfo López Mateos 481 P. 1. entre Av. La Escondida y Av. Cama de Piedra. Cd. Neza. MEXIBUS ADOLFO LOPEZ MATEOS&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 22-32-80-84&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 22-32-42-21&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>PEDREGAL&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Tec. Fabiola Araceli Cervantes Ramirez&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;fcervantes@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 56-77-58-84&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Camino a Santa Teresa 13, Nivel 3, Local 18 Col. Residencial Santa Teresa, México, D. F. CENTRO COMERCIAL PEDREGAL DEL LAGO&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 51-35-54-25&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 51-35-42-21&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+
+
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>POLANCO&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Lic. Israel Luvianos Rosado&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;iluvianos@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 13-29-98-91&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Mariano Escobedo 375, Despacho 1304, piso 13 esq. Homero, Colonia Polanco Anzures, Ciudad de México.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 52-03-51-69&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 55-45-45-42&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>ROMA&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">C.D. Ariadna Flores Mendoza&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;aflores@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(56) 27-13-71-72&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Puebla 170, entre Jalapa y Pomona, Colonia Roma Norte, Ciudad de México. METRO INSURGENTES&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 51-62-38-11&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 51-62-38-13&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>	
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>SATÉLITE&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Dra. Emirania Berbera Muñoz&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;eberbera@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 45-26-36-23&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Circuito Cirujanos No. 4 – 2do Piso, Ciudad Satélite Naucalpan de Juárez 53100, México. JUNTO A FANTASÍAS MIGUEL.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 55-62-57-07&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 59-41-62-65&nbsp;</font></p>
+
+	</div>
+	</div>
+	</div>
+
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>TEPOZÁN&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">C.D. Brando Alberto Guzmán Leyva&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;aguzman@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 14-92-52-89&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Paseo del Tepozán L1M8, Local 1 Frente al Centro Comercial Plaza Tepozanes. METRO/METROBUS SANTA MARTHA / LOS REYES.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 76-91-56-04&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 76-91-56-05&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>	
+	
+	
+</div>
+</div>	
+<!--/bloque de agenda 5-->
+	
+	
+<!--/bloque de agenda 6--> 		
+<footer class="text-center" style="background-color:#00955d;">	
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">SISTEMAS DIGITALES 3D</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>
+
+<div class="container">
+<div class="row">	
+
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>COORDINADOR DE SISTEMAS DIGITALES 3D&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">C.D. Daniel Ayala Acosta&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;dayala@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Del valle&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(55) 56-01-13-68&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>ASIST. DE SISTEMAS DIGITALES 3D&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Lic. Linda Montserrat Mateos Flores&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;lmateos@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Del valle&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(55) 56-01-13-68&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(56) 19-22-41-94&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+	
+	
+</div>
+</div>	
+	
+<!--/bloque de agenda 6--> 		
+	
+	
+<!--bloque de agenda 7--> 		
+<footer class="text-center" style="background-color:#00955d;">	
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">COMPRAS</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>
+
+<div class="container">
+<div class="row">	
+
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>COMPRAS&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Erika Montiel Aguirre&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;emontiel@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Roma&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(55) 59-41-46-58&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>COMPRAS&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Dany Arriaga Fierro&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;darriaga@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Roma&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(55) 59-41-46-58&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+	
+	
+</div>
+</div>	
+	
+<!--/bloque de agenda 7--> 		
+	
+	
+	
+	
+<!--bloque de agenda 7--> 		
+<footer class="text-center" style="background-color:#00955d;">	
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">EDUCACIÓN CONTINUA</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>
+
+<div class="container">
+<div class="row">	
+
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>COORDINADORA&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Norma Angelica Espinoza Ramírez&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;cursos@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Roma&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(56) 30-21-03-62&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+
+	
+	
+	
+</div>
+</div>	
+	
+<!--/bloque de agenda 7--> 			
+	
+	
+	
+	
+	
+<!--bloque de agenda 8--> 		
+<footer class="text-center" style="background-color:#00955d;">	
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">FOTOGRAFÍA</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>
+
+<div class="container">
+<div class="row">	
+
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>RESPONSABLE&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Fabiola Ramírez Hernández&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Sucursal: Del valle&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(56) 11-37-25-91&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+
+	
+	
+</div>
+</div>	
+	
+<!--/bloque de agenda 8--> 		
+	
+
+	
+<!--bloque de agenda 5--> 		
+<footer class="text-center" style="background-color:#00955d;">
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">PROMOCIÓN</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>	
+	
+<div class="container">
+<div class="row">		
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>COAPA&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Karina Martinez Jimenez&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 00-00-00-004&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Avenida Prolongación División del Norte #4344 Local 30, Colonia Nueva Oriental Coapa, C.P. 14300, Alcaldía Tlalpan.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 56-78-48-60&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 56-77-53-36&nbsp;</font></p>
+
+	</div>
+	</div>
+	</div>
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>DEL VALLE&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Monserrat Boja Ruiz&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Uxmal 805 – 5 Frente a la Alc. Benito Juárez, Ciudad de México, METRO PARQUE DE LOS VENADOS&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 56-05-86-52&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 56-05-65-31&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+	
+	
+
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>ECATEPEC&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Yesenia Juan Diego Nuñez&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Av. Central 50, Center Plazas Mz. 44, Local 7 P.B. Ecatepec, Estado de México. METRO ECATEPEC&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 57-74-92-80&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 57-74-92-83&nbsp;</font></p>
+
+	</div>
+	</div>
+	</div>
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>INTERLOMAS&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">-&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Boulevard Interlomas 5, Planta Baja, L-10 Huixquilucan, Estado de México. CENTRO COMERCIAL INTERLOMAS&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 52-90-10-84&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 52-90-02-26&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>IZTACALCO&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Vanessa Guadalupe Mercado Vargas&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Av. Río Churubusco No. 775, Plaza Río, Local 1A Iztacalco, Ciudad de México. METRO IZTACALCO.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 56-48-22-56&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 56-48-84-93&nbsp;</font></p>
+
+	</div>
+	</div>
+	</div>
+
+	
+
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>LINDAVISTA&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Kelly Johanna Vega de Alba&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(56) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Calzada de Vallejo 1111, Local 23, Col. Nueva Industrial Vallejo, METROBUS PATERA&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 55-67-77-24&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 55-67-77-33&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>	
+	
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>NEZAHUALCÓYOTL&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Laura Alejandra Calvillo Bravo&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Av. Adolfo López Mateos 481 P. 1. entre Av. La Escondida y Av. Cama de Piedra. Cd. Neza. MEXIBUS ADOLFO LOPEZ MATEOS&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 22-32-80-84&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 22-32-42-21&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>PEDREGAL&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Martha María Cosme Martinez&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Camino a Santa Teresa 13, Nivel 3, Local 18 Col. Residencial Santa Teresa, México, D. F. CENTRO COMERCIAL PEDREGAL DEL LAGO&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 51-35-54-25&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 51-35-42-21&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+
+
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>POLANCO&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Susana Ramírez Ramírez&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Mariano Escobedo 375, Despacho 1304, piso 13 esq. Homero, Colonia Polanco Anzures, Ciudad de México.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 52-03-51-69&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 55-45-45-42&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>ROMA&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Viridiana Arzate León.&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(56) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Puebla 170, entre Jalapa y Pomona, Colonia Roma Norte, Ciudad de México. METRO INSURGENTES&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 51-62-38-11&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 51-62-38-13&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>	
+	
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>SATÉLITE&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Karla Jeniffer Sanabria Espadín&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 00-00-00-00&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Circuito Cirujanos No. 4 – 2do Piso, Ciudad Satélite Naucalpan de Juárez 53100, México. JUNTO A FANTASÍAS MIGUEL.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 55-62-57-07&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 59-41-62-65&nbsp;</font></p>
+
+	</div>
+	</div>
+	</div>
+
+	
+	
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>TEPOZÁN&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Prom. Vanessa Arzate León&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;aguzman@drd3d.com&nbsp; </font></small></small></h5>	
+	<h5 class="text-center"><small><font color="#003063">&nbsp;(55) 14-92-52-89&nbsp; </font></small></h5>	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Paseo del Tepozán L1M8, Local 1 Frente al Centro Comercial Plaza Tepozanes. METRO/METROBUS SANTA MARTHA / LOS REYES.&nbsp; </font></small></small></h5>
+	<p class="text-center" color="#003063"><font color="#003063">(55) 76-91-56-04&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 76-91-56-05&nbsp;</font></p>
+
+
+	</div>
+	</div>
+	</div>	
+	
+	
+</div>
+</div>	
+<!--/bloque de agenda 5-->
+		
+	
+	
+<!--bloque de agenda 8--> 		
+<footer class="text-center" style="background-color:#00955d;">	
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">CALL CENTER</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>
+
+<div class="container">
+<div class="row">	
+
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>ATENCIÓN A MÉDICOS Y PACIENTES&nbsp;</strong></font></small></h3>
+	
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;info@drd3d.com&nbsp; </font></small></small></h5>
+	<p class="text-center"><font color="#003063">(55) 56-01-28-29&nbsp;</font></p>
+	<p class="text-center"><font color="#003063">(55) 56-01-16-70&nbsp;</font></p>	
+	</div>
+	</div>
+	</div>	
+	
+</div>
+</div>	
+	
+<!--/bloque de agenda 8--> 		
+	
+	
+<!--bloque de agenda 7--> 		
+<footer class="text-center" style="background-color:#454545;">	
+<div class="text-center col-md-8 col-12 mx-auto">	
+<div class="container mt-3">	
+<p class="lead" ><b><b><big><big><font color="#FFFFFF">PROVEEDORES EXTERNOS</font></big></big></b></b></p>
+</div>		
+</div>
+</footer>
+
+<div class="container">
+<div class="row">	
+
+	<div class="col-4">
+	<div class="row">
+
+	<div class="container mt-3">
+	<h3 class="text-center"><small><font color="#003063"><strong>REDES Y SISTEMAS&nbsp;</strong></font></small></h3>
+	<h5 class="text-center"><small><medium><font color="#003063">Ing. Nombre&nbsp;</font></medium></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;correo@.com&nbsp; </font></small></small></h5>
+	<h5 class="text-center"><small><small><font color="#003063">&nbsp;Provedor de servicio externo&nbsp; </font></small></small></h5>	
+	<p class="text-center"><font color="#003063">(56) 00-00-00-00&nbsp;</font></p>
+	</div>
+	</div>
+	</div>
+
+	
+	
+	
+</div>
+</div>	
+	
+<!--/bloque de agenda 7--> 		
+	
+		
+	
+	
+	
+<!-- quienes somos -->
+	
+<div class="container">
+<div class="row">
+<div class="text-center col-md-8 col-12 mx-auto">
+<p class="lead">&nbsp;</p>
+<p class="lead"><b><b><big><font color="#00955d">¿QUIÉNES SOMOS?</font></big></b></b></p>
+             
+<p class="lead"><b><font color="#003063">Somos <b>DRD Diagnóstico 3D</b>; gabinete de radiología dental y apoyo al diagnostico dental más grande de la Ciudad de México y el Área Metropolitana.</font></b></p>
+<p class="lead">&nbsp;</p>
+</div>
+</div>
+		
+<link href="../../css/singlePageTemplate.css" rel="stylesheet" >
+<h2 class="text-center"><font color="#003063"></font></h2>
+<p></p>
+<p></p>
+		
+			
+			
+<!--banner 01-->
+<section class="banner" >
+<h2 class="parallax"><font color="#FFFFFF">¡BIENVENIDO!</font></h2>
+<p class="parallax_description"><font color="#FFFFFF">Administrador DRD-3D</font></p>
+</section>
+<!--/banner 01-->
+			
+
+
+     
+	
+<!--pie de pagina-->
+<hr>
+<h2 class="text-center"><font color="#FFFFFF">-</font></h2>
+<div class="section">
+<div class="row">
+
+	
+<!--columna izquierda-->
+<div class="col-md-4 col-12">
+<h3 class="text-left"><font color="#003063"> </font></h3>
+<p><font color="#003063"></font></p>
+<p class="text-right"><font color="#003063"></font></p>
+
+</div>
+<!--/columna izquierda-->
+			
+			
+<!--columna media-->
+<div class="col-md-4 col-12">
+<h3 class="text-center"><small><font color="#003063"><b>RECURSOS HUMANOS</b></font></small></h3>
+<address class="text-center">
+<small><font color="#003063">Lic. Carlos Govany Mateos Flores</font></small><br>
+<small><font color="#003063">Del Valle: Uxmal 805, Sta Cruz Atoyac, B. Juarez.</font></small><br>
+<small><font color="#003063">gmateos@drd3d.com</font></small><br>
+<small><font color="#003063">drdrecursoshumanos@gmail.com</font></small><br>
+<small><font color="#003063">Tel: 55-66-32-85-76</font></small><br>
+	<p class="lead">&nbsp;</p>
+<abbr title="Phone"></abbr><small>  <a href="https://wa.me/5566328576" class="btn btn-success" target="_blank">Enviar WhatsApp</a></small>
+</address>
+</div>
+<!--/columna media-->
+			
+
+			
+</div>
+</div>
+</div>
+<!--/pie de pagina-->
+	  
+	  
+<!--pie de pagina 02-->
+<hr>
+<footer class="text-center" style="background-color:#00244B;">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<p>&nbsp;</p>
+<p><font color="#FFFFFF"><b>SITIO INTERNO</b></font></p>
+</div>
+</div>
+</div>
+</footer>
+<hr>
+<!--/pie de pagina 02-->
+              
+    
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="../../js/jquery-3.4.1.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="../../js/popper.min.js"></script>
+ <script src="../../js/bootstrap-4.4.1.js"></script>
+ </body>
+</html>
